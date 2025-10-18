@@ -30,5 +30,5 @@
 
 /** The interface for the component's props for clarity and type safety. */
 export interface HeaderProps {
-    greeting: string;
+    readonly greeting: string;
 }

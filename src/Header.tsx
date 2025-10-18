@@ -37,7 +37,7 @@ import type { HeaderProps} from "./types/HeaderProps.tsx";
  * @param {props}   HeaderProps
  * @return          {JSX.Element}
  */
-export default function Header({ greeting }: HeaderProps): JSX.Element {
+export default function Header({ greeting }: Readonly<HeaderProps>): JSX.Element {
     return (
         <div>
             <h1>{greeting}</h1>

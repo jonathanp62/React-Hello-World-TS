@@ -30,6 +30,6 @@
 
 /** The interface for the component's props for clarity and type safety. */
 export interface ParagraphProps {
-    message: string;
-    version: string;
+    readonly message: string;
+    readonly version: string;
 }
